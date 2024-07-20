@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DebitCard\ here.\r\n\ DebitCard\r\n\ @author\ (Saman\ Gautam)\r\n\ @version\ (version\ 1.1)\r\n
+comment1.params=balanceAmount\ cardId\ bankAccount\ issuerBank\ clientName\ pin_Num
+comment1.target=DebitCard(int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=Debit\ Card\ Constructor\ *
+comment2.params=
+comment2.target=int\ getPin_Num()
+comment3.params=
+comment3.target=int\ getWithdrawlAmount()
+comment4.params=
+comment4.target=java.lang.String\ getDateOfWithdrawl()
+comment5.params=
+comment5.target=boolean\ getHasWithdrawn()
+comment6.params=withdrawlAmount
+comment6.target=void\ setWithdrawlAmount(int)
+comment7.params=withdrawlAmount\ dateofWithdrawl\ input_Pin
+comment7.target=void\ Withdraw(int,\ java.lang.String,\ int)
+comment7.text=\r\n\ If\ the\ pin\ number\ that\ is\ given\ by\ user\ matches\ to\ the\ setted\ pin\ number\ then\ money\ can\ be\ withdraw\r\n\ If\ the\ withdrawl\ amount\ given\ by\ user\ is\ less\ than\ or\ equal\ to\ balance\ amount\ then\ the\ money\ is\ deducted\ from\ current\ balance\ amount\r\n
+comment8.params=
+comment8.target=void\ display()
+comment8.text=method\ to\ display\ the\ output\ overriding\ display()\ of\ Bank\ Card\ *
+numComments=9
